@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TechnoSphere PH — Science, Technology & Society</title>
+  <meta name="description" content="TechnoSphere PH explores how science and technology shape Filipino society — ethics, environment, and innovation." />
+  <meta name="author" content="U.K. Philip Ebueng" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== Header / Nav ===== -->
+  <header aria-label="Top Navigation">
+    <div class="container nav">
+      <div class="brand" aria-label="Website brand">
+        <div class="brand-logo" role="img" aria-label="TechnoSphere PH logo gradient blob"></div>
+        <h1>TechnoSphere PH • Science, Technology & Society</h1>
+      </div>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#headline">Headline</a></li>
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="#quiz">Quiz</a></li>
+          <li><a href="#sources">Sources</a></li>
+          <li><a href="#about">Editorial</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="container">
+    <!-- ===== HERO / HEADLINE ===== -->
+    <section class="hero" aria-label="Hero and advertisement">
+      <!-- Headline card -->
+      <article id="headline" class="card" aria-labelledby="headlineTitle">
+        <div class="pad">
+          <span class="tag" aria-label="Headline tag">HEADLINE • P3</span>
+          <h2 id="headlineTitle">Climate Change: Environmental <em>and</em> Social Issue?</h2>
+          <p class="meta">Explainer • Updated <time datetime="2025-10-06">Oct 6, 2025</time> • 7 min read</p>
+          <p>
+            Climate change reshapes ecosystems, economies, and everyday life. Beyond melting ice and stronger typhoons,
+            it amplifies social inequities—affecting food prices, health, and displacement. This feature connects the science
+            (greenhouse gases, feedback loops) with society (policy, labor, migration, justice), and outlines how nations
+            can build capacity via mitigation, adaptation, and financing.
+          </p>
+          <p><a href="#article-climate" class="btn">Read the Headline Feature</a></p>
+        </div>
+        <figure class="cover" aria-label="Cover image climate & society">
+          <img 
+            src="https://tse1.mm.bing.net/th/id/OIP.iE74hRCXdhviBuN2_x5xUgHaE8?pid=Api"
+            alt="Flooded street in a Philippine city showing the social and environmental effects of climate change"
+            width="1600" height="400" />
+          <div class="overlay-text">
+            <p class="meta" style="margin:0 0 4px 0">HEADLINE • P3</p>
+            <h2>Climate Change: Environmental and Social Issue?</h2>
+            <p>How global warming impacts both nature and people — with a PH lens.</p>
+          </div>
+        </figure>
+      </article>
+
+      <!-- Rotating PH Trend Ad -->
+      <aside class="card ad" aria-labelledby="adTitle">
+        <div class="pad">
+          <div>
+            <div class="badge" aria-label="Sponsored">TREND • Sponsored</div>
+            <h3 id="adTitle">11.11 Mega Sale — Up to 70% OFF</h3>
+            <p id="adText" class="meta">Add to cart now, check out on 11.11. Free shipping vouchers and flash deals every hour.</p>
+            <a id="adBtn" class="btn" href="#" aria-label="CTA">Shop now</a>
+          </div>
+          <img id="adImg" src="https://images.unsplash.com/photo-1519996529931-28324d5a6301?q=80&w=1200&auto=format&fit=crop" alt="Shopping cart and boxes representing e‑commerce sale" style="width:180px; height:120px; border-radius:12px; object-fit:cover; margin-left:auto"/>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ===== Objectives + Search ===== -->
+    <section class="card objectives" aria-labelledby="objTitle">
+      <div class="pad">
+        <h3 id="objTitle">Course Objectives</h3>
+        <div class="kpi">
+          <div class="pill">1) Identify human displacement possibilities due to technological advancement.</div>
+          <div class="pill">2) Determine the status of Philippine biodiversity.</div>
+          <div class="pill">3) Explain advantages & disadvantages of GMOs.</div>
+          <div class="pill">4) State nations' capacity to face climate change.</div>
+          <div class="pill">5) Examine ethical & social issues in gene therapy & stem cell research.</div>
+          <div class="pill">Purpose: Educate visitors on how science & tech shape society.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Search bar -->
+    <section id="search" class="card" aria-label="Search articles">
+      <div class="pad">
+        <label for="searchInput"><strong>Search Articles:</strong></label><br>
+        <input type="text" id="searchInput" placeholder="Type a keyword (e.g., biodiversity, GMOs, nanotech...)" aria-label="Search articles">
+      </div>
+    </section>
+
+    <!-- ===== Articles ===== -->
+    <section id="articles" class="grid cols-3" aria-label="Article grid">
+      <!-- Headline full article teaser -->
+      <article id="article-climate" class="card article-item" data-tags="climate social policy adaptation philippines">
+        <div class="pad">
+          <div class="article">
+            <img src="images/climate.jpg" alt="Flooded street in a Philippine city showing climate impacts" width="1400" height="1000"/>
+            <div>
+              <h4>Climate Change: Environmental or Social Issue?</h4>
+              <p>Environmental hazards cascade into social risks: food price shocks, health stress, migration, infrastructure loss, and learning disruptions. Capacity varies by nation—early‑warning systems, resilient infrastructure, social safety nets, and climate finance access.</p>
+              <ul>
+                <li><strong>Insight:</strong> Mitigation and adaptation must advance together.</li>
+                <li><strong>PH case:</strong> After Typhoon Ulysses (2020), prolonged outages and flooding disrupted schooling and work across Luzon.</li>
+              </ul>
+              <a href="#headline" class="btn mini">Read more</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Nanotech ethics -->
+      <article class="card article-item" data-tags="Nanotechnology and micro-scale structures concept">
+        <div class="pad">
+          <div class="article">
+            <img src="images/nanotech.jpg" alt="Nanotech microchip close‑up" width="1200" height="900"/>
+            <div>
+              <h4>Ethical Issues in Nanotechnology</h4>
+              <p>Nanomaterials enable targeted drug delivery and stronger materials—but raise concerns about toxicity, surveillance miniaturization, and unequal access.</p>
+              <ul>
+                <li><strong>Insight:</strong> Lifecycle safety studies and worker protections are essential.</li>
+                <li><strong>PH case:</strong> Standards from ISO/NIOSH inform lab & factory handling policies.</li>
+              </ul>
+              <a href="#sources" class="btn mini">See sources</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Biodiversity threats (PH) -->
+      <article class="card article-item" data-tags="biodiversity philippines conservation habitat reefs forests">
+        <div class="pad">
+          <div class="article">
+            <img src="https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?q=80&w=1400&auto=format&fit=crop" alt="Philippine rainforest canopy" width="1400" height="1000"/>
+            <div>
+              <h4>Threats to Philippine Biodiversity & Healthy Society</h4>
+              <p>The Philippines is a megadiverse hotspot facing habitat loss, overexploitation, invasive species, pollution, and climate stress. Conservation sustains food security and disaster protection.</p>
+              <ul>
+                <li><strong>Insight:</strong> Watersheds and reefs act as natural shields.</li>
+                <li><strong>PH case:</strong> Protected Areas and community-based resource management boost local resilience.</li>
+              </ul>
+              <a href="#sources" class="btn mini">See sources</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- GMOs ethics -->
+      <article class="card article-item" data-tags="gmo ethics health society regulation agriculture">
+        <div class="pad">
+          <div class="article">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1400&auto=format&fit=crop" alt="Corn field genetically modified concept" width="1400" height="1000"/>
+            <div>
+              <h4>GMOs & Society: Benefits, Risks, and Regulation</h4>
+              <p><strong>Advantages:</strong> higher yields, reduced pesticide use, biofortified crops. <strong>Risks:</strong> herbicide resistance, gene flow, market concentration, perception issues.</p>
+              <ul>
+                <li><strong>Insight:</strong> Transparent labeling and post‑market monitoring build trust.</li>
+                <li><strong>PH case:</strong> Biosafety frameworks inform approvals and field trials.</li>
+              </ul>
+              <a href="#sources" class="btn mini">See sources</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Tech & displacement -->
+      <article class="card article-item" data-tags="automation ai displacement jobs education skills policy">
+        <div class="pad">
+          <div class="article">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1400&auto=format&fit=crop" alt="Industrial robot arm in factory" width="1400" height="1000"/>
+            <div>
+              <h4>Automation, AI & Human Displacement</h4>
+              <p>Routine tasks automate first; new roles emerge in maintenance, data, and creative work. Priorities: reskilling, digital access, social protection, and support for SMEs.</p>
+              <ul>
+                <li><strong>Insight:</strong> Education and upskilling policies reduce displacement risks.</li>
+                <li><strong>PH case:</strong> Digital jobs & TESDA programs can bridge workers into new roles.</li>
+              </ul>
+              <a href="#sources" class="btn mini">See sources</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Gene therapy & stem cells ethics -->
+      <article class="card article-item" data-tags="gene therapy stem cells ethics access consent equity">
+        <div class="pad">
+          <div class="article">
+            <img src="images/genetherapy.jpg" alt="DNA helix visualization" width="1400" height="1000"/>
+            <div>
+              <h4>Gene Therapy & Stem Cell Research: Ethics & Social Issues</h4>
+              <p>Breakthroughs promise cures for rare diseases, but raise questions on safety, consent, equity, and potential enhancement misuse.</p>
+              <ul>
+                <li><strong>Insight:</strong> Clinical oversight and long‑term follow‑up are essential.</li>
+                <li><strong>PH case:</strong> Access & affordability policies prevent exploitation.</li>
+              </ul>
+              <a href="#sources" class="btn mini">See sources</a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ===== Further Reading & Sources ===== -->
+    <section id="sources" class="card container" aria-labelledby="srcTitle">
+      <div class="pad">
+        <h2 id="srcTitle">Further Reading & Sources</h2>
+        <p class="meta">Reliable references for Science, Technology, and Society topics</p>
+        <ul>
+          <li><a href="https://www.ipcc.ch/reports/" target="_blank" rel="noopener">IPCC — Assessment Reports & Summaries for Policymakers</a></li>
+          <li><a href="https://bmb.gov.ph/" target="_blank" rel="noopener">DENR‑BMB — Biodiversity Management Bureau (PH)</a></li>
+          <li><a href="https://www.who.int/ethics/topics/human-genome-editing" target="_blank" rel="noopener">WHO — Ethics & Human Genome/Gene Therapy</a></li>
+          <li><a href="https://www.fao.org/food/food-safety-quality/home-page/en/" target="_blank" rel="noopener">FAO — Food Safety & GM Foods</a></li>
+          <li><a href="https://www.ilo.org/global/publications/books/WCMS_579096/lang--en/index.htm" target="_blank" rel="noopener">ILO/OECD — Skills & the Future of Work (Automation)</a></li>
+          <li><a href="https://www.iso.org/committee/381983.html" target="_blank" rel="noopener">ISO — Nanotechnologies Standards</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Quiz ===== -->
+    <section id="quiz" class="card quiz" aria-labelledby="quizTitle">
+      <div class="pad">
+        <h3 id="quizTitle">Quick Check: STS Concepts</h3>
+        <form id="quizForm" onsubmit="event.preventDefault(); gradeQuiz();">
+          <fieldset class="q">
+            <legend>1) Climate change is only an environmental problem.</legend>
+            <label><input type="radio" name="q1" value="false"> False</label>
+            <label><input type="radio" name="q1" value="true"> True</label>
+          </fieldset>
+          <fieldset class="q">
+            <legend>2) One ethical concern in nanotechnology is potential unknown toxicity of some nanomaterials.</legend>
+            <label><input type="radio" name="q2" value="true"> True</label>
+            <label><input type="radio" name="q2" value="false"> False</label>
+          </fieldset>
+          <fieldset class="q">
+            <legend>3) GMOs can provide benefits like biofortification, but risks include herbicide resistance and market concentration.</legend>
+            <label><input type="radio" name="q3" value="true"> True</label>
+            <label><input type="radio" name="q3" value="false"> False</label>
+          </fieldset>
+          <fieldset class="q">
+            <legend>4) The Philippines is considered megadiverse; biodiversity loss threatens food security and disaster protection.</legend>
+            <label><input type="radio" name="q4" value="true"> True</label>
+            <label><input type="radio" name="q4" value="false"> False</label>
+          </fieldset>
+          <fieldset class="q">
+            <legend>5) Gene therapy & stem cell research raise no issues about consent or fair access as long as they are effective.</legend>
+            <label><input type="radio" name="q5" value="false"> False</label>
+            <label><input type="radio" name="q5" value="true"> True</label>
+          </fieldset>
+          <button class="btn" type="submit" disabled>Submit</button>
+          <button class="btn ghost" type="button" onclick="resetQuiz()">Reset</button>
+          <div id="quizResult" class="result" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== About / Editorial Staff ===== -->
+    <section id="about" class="card" aria-labelledby="aboutTitle">
+      <div class="pad">
+        <div class="panel-header"><h3 id="aboutTitle">About • Editorial Staff</h3></div>
+        <p><strong>TechnoSphere PH</strong> explores how science and technology shape Filipino society. This site was created and produced by <strong>U.K. Philip Ebueng</strong>.</p>
+        <div class="staff" aria-label="Editorial staff list">
+          <div class="chip">Editor‑in‑Chief: <strong>Jan Kenneth Fumar</strong></div>
+          <div class="chip">Managing Editor: <strong>John Railey Baclili</strong></div>
+          <div class="chip">Design Lead: <strong>Edzon Ramos</strong></div>
+          <div class="chip">Author & Developer: <strong>U.K. Philip Ebueng</strong></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="container" aria-label="Site footer">
+    <p>© 2025 TechnoSphere PH. Built by <strong>U.K. Philip Ebueng</strong>.</p>
+    <p class="meta">Exploring the Impact of Science and Technology on Filipino Society.</p>
+    <p class="meta">Last updated: October 2025</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
